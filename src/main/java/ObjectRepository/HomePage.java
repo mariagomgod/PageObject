@@ -23,6 +23,6 @@ public class HomePage {
 
     public WebElement search() {
 
-        return search();
+        return search;
     }
 }
