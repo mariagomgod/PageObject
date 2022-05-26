@@ -53,6 +53,4 @@ public class PageFactory {
         return home;
     }
 
-    @FindBy(xpath = "//input[contains(@id,'login1')]")
-    WebElement username;
 }

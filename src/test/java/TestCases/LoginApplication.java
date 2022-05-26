@@ -19,7 +19,7 @@ public class LoginApplication {
         LoginPage rd = new LoginPage(driver);
         rd.emailId().sendKeys("hello");
         rd.password().sendKeys("hello");
-        rd.submit().click();
+        //rd.submit().click();
         rd.home().click();
 
         HomePage rh = new HomePage(driver);
