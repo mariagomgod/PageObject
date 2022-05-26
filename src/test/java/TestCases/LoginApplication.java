@@ -11,6 +11,9 @@ public class LoginApplication {
     @Test
     public void login() {
 
+        // LoginPage class implemented in normal page object pattern style
+        // HomePage class implemented in page object factory methods
+
         WebDriver driver = new ChromeDriver();
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
         LoginPage rd = new LoginPage(driver);
